@@ -1,125 +1,53 @@
-// data.js
 const beachData = [
-    {
-      id: 1,
-      name: "Palolem Beach, Goa",
-      activities: [
-        "Swimming",
-        "Kayaking",
-        "Dolphin watching",
-        "Sunset yoga",
-        "Beach volleyball",
-        "Parasailing"
-      ]
+  {
+    id: 1,
+    name: "Palolem Beach, Goa",
+    location: "South Goa, India",
+    activities: [
+      "Swimming",
+      "Kayaking",
+      "Dolphin watching",
+      "Sunset yoga",
+      "Beach volleyball",
+      "Parasailing"
+    ],
+    photos: {
+      beach: ["/images/beaches/pbeach.jpg"],
     },
-    {
-      id: 2,
-      name: "Radhanagar Beach, Andaman",
-      activities: [
-        "Scuba diving",
-        "Snorkeling",
-        "Beach camping",
-        "Photography",
-        "Nature walks",
-        "Swimming"
-      ]
-    },
-    {
-      id: 3,
-      name: "Varkala Beach, Kerala",
-      activities: [
-        "Surfing",
-        "Paragliding",
-        "Spa treatments",
-        "Cliff walking",
-        "Sunbathing",
-        "Meditation"
-      ]
-    },
-    {
-      id: 4,
-      name: "Marina Beach, Tamil Nadu",
-      activities: [
-        "Horse riding",
-        "Kite flying",
-        "Beach walking",
-        "Photography",
-        "Street food tasting",
-        "Shell collecting"
-      ]
-    },
-    {
-      id: 5,
-      name: "Kovalam Beach, Kerala",
-      activities: [
-        "Ayurvedic massage",
-        "Catamaran riding",
-        "Surfing",
-        "Swimming",
-        "Sunbathing",
-        "Beach shopping"
-      ]
-    },
-    {
-      id: 6,
-      name: "Om Beach, Karnataka",
-      activities: [
-        "Banana boat rides",
-        "Jet skiing",
-        "Rock climbing",
-        "Fishing",
-        "Trekking",
-        "Boat rides"
-      ]
-    },
-    {
-      id: 7,
-      name: "Calangute Beach, Goa",
-      activities: [
-        "Parasailing",
-        "Water skiing",
-        "Beach parties",
-        "Shopping",
-        "Water scooter rides",
-        "Sunbathing"
-      ]
-    },
-    {
-      id: 8,
-      name: "Mandrem Beach, Goa",
-      activities: [
-        "Yoga retreats",
-        "Bird watching",
-        "Swimming",
-        "Meditation",
-        "Silent walks",
-        "Photography"
-      ]
-    },
-    {
-      id: 9,
-      name: "Lighthouse Beach, Kerala",
-      activities: [
-        "Lighthouse visits",
-        "Surfing",
-        "Fishing",
-        "Beach volleyball",
-        "Swimming",
-        "Sunset viewing"
-      ]
-    },
-    {
-      id: 10,
-      name: "Butterfly Beach, Goa",
-      activities: [
-        "Butterfly watching",
-        "Snorkeling",
-        "Kayaking",
-        "Photography",
-        "Swimming",
-        "Picnicking"
-      ]
+    seafood: [
+      {
+        name: "Dropadi Restaurant",
+        photo: "/images/seafood/pbeach_seafood1.jpg"
+      },
+      {
+        name: "Art Resort",
+        photo: "/images/seafood/pbeach_seafood2.jpg"
+      }
+    ],
+    stays: [
+      {
+        name: "kings Villa Restaurant",
+        photo: "/images/stays/kingsvilla.jpg"
+      },
+      {
+        name: "sobit",
+        photo: "/images/stays/sobit.jpg"
+      }
+    ],
+    attractions: [
+      {
+        name: "Butterfly Island",
+        photo: "/images/attractions/piland.jpg"
+      },
+    ],
+    bestTimeToVisit: "November to March",
+    weatherInfo: {
+      summer: "30-35°C",
+      winter: "20-28°C",
+      monsoon: "25-30°C"
     }
-  ];
-  
-  module.exports = beachData;
+  }
+  // Add more beach objects here
+];
+
+module.exports = beachData;
